@@ -1,0 +1,43 @@
+@import '../styles/variable';
+@import '../styles/style.scss';
+
+.contact{
+    padding: 40px 0 0;
+
+    .title{
+        @include title;
+    }
+
+    .wa-btn{
+        @include primary-btn;
+        border: 0;
+        width: 260px;
+        text-align: left;
+    }
+}
+
+.map{
+    padding-bottom: 60px;
+    font-family: $font-2;
+    .card{
+        @include card;
+        padding: 20px;
+
+        .image-wrapper{
+            width: 60px;
+            height: 60px;
+            i{
+                font-size: 30px;
+                color: $secondary-color;
+            }
+        }
+
+        .card-body{
+            a{
+                text-decoration: none;
+                color: $primary-color;
+                font-weight: $font-medium;
+            }
+        }
+    }
+}

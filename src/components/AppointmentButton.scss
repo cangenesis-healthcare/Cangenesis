@@ -1,0 +1,12 @@
+@import '../styles/variable';
+@import '../styles/style.scss';
+
+.alert-button{
+    font-family: $font;
+    background: $btn-gradient;
+    padding: 13px 15px !important;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 12px !important;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}

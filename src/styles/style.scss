@@ -1,0 +1,217 @@
+@import 'variable.scss';
+
+body{
+    max-height: 100vh;
+    font-family: $font;
+    position: relative;
+}
+
+p{
+    font-family: $font-2;
+    color: $text-color;
+}
+
+.wa-wrapper{
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 99;
+    transition: 0.2s all ease;
+    a{
+        background-color: #25D366;
+        padding: 16px 18px 16px;
+        border-radius: 100px;
+
+        i{
+            color: $white;
+            font-size: 40px;
+            vertical-align: middle;
+        }
+    }
+}
+
+.scroll-top{
+    display: none; 
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    border: none;
+    cursor: pointer;
+    z-index: 99;
+    transition: 0.2s all ease;
+
+    a{
+        background-color: $secondary-color;
+        border: 1px solid $secondary-color;
+        padding: 20px 16px 15px 18px;
+        border-radius: 100%;
+
+        i{
+            color: $white;
+            font-size: 24px;
+        }
+    }
+}
+
+.form-group{
+    .form-control{
+        width: 100%;
+        border: none;
+        background: #fff;
+        padding: 10px 20px;
+        transition: .3s;
+        border: 1px solid #C3C3C3;
+        border-radius: 15px;
+        font-family: $font-2;
+    }
+
+    .down-arrow{
+        position: relative;
+        top: -35px;
+        right: -90%;
+    }
+}
+
+/*Service*/
+.service{
+    padding: 60px 0;
+    font-family: $font-2;
+    background-color: $light-bg;
+ 
+    .title{
+        @include title;
+    }
+    .card{
+       @include card;
+       height: 420px;
+        .card-body{
+            h5{
+                font-weight: $font-bold;
+            }
+        }
+    }
+}
+/*Service*/
+/*About*/
+.about{
+    .image-wrapper{
+        img{
+            width: 100%;
+        }
+    }
+    .title{
+        @include title;
+    }
+    p{
+        color: #353535;
+        font-size: 16px;
+        font-family: $font-2;
+        margin-bottom: 30px;
+    }
+}
+/*About*/
+/* Work */
+.work{
+    padding: 60px 0;
+    .title{
+        @include title;
+        text-align: center;
+    }
+    .card{
+        padding: 20px;
+        border: 0;
+        height: 350px;
+        position: relative;
+        font-family: $font-2;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        .image-wrapper{
+            height: 200px;
+            overflow: hidden;
+        }
+        .num{
+            position: absolute;
+            bottom: -20px;
+            left: 40%;
+            height: 60px;
+            width: 60px;
+            background: $light-secondary;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span{
+                font-size: 30px;
+                font-weight: $font-medium;
+                color: $white;
+                font-family: $font;
+                color: $secondary-color;
+            }
+        }
+    }
+}
+/*Work*/
+/* Treatment Start */
+.treatment{
+    background-color: $light-bg;
+    padding: 60px 0;
+
+    .title{
+       @include title;
+    }
+
+    .card{
+        @include card;
+        height: 160px;
+
+        .card-body{
+            a{
+                text-decoration: none;
+                color: $secondary-color;
+                font-weight: $font-medium;
+                i{
+                    transition: all .3s ease-out;
+                }
+            }
+        }
+
+        &:hover{
+            i{
+                transform: translateX(5px);
+            }
+        }
+    }
+
+}
+/* Treatment End */
+/* Contact Start */
+
+/* Contact End */
+/* Map*/
+
+/*Map*/
+/*Department*/
+.department{
+    padding: 60px 0;
+    .title{
+        @include title;
+    }
+    .card{
+        @include card;
+    }
+
+    .wa-btn{
+        @include primary-btn;
+        width: 270px;
+        margin: 0 15px;
+        span{
+            float: left;
+        }
+    }
+}
+/*Department*/
+/*Footer*/
+
+/*Footer*/

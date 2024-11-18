@@ -1,0 +1,129 @@
+@import '../styles/variable';
+@import '../styles/style.scss';
+
+/*Banner*/ 
+.hero{
+    padding: 150px 0;
+    background-image: url(../assets/images/banner.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: $font;
+    .title{
+        h2{
+            font-size: 45px;
+            color: $primary-color;
+            font-weight: $font-bold;
+            line-height: 1.5;
+            em{
+                color: $pink;
+                font-weight: 800;
+                font-family: $font-2;
+            }
+        }
+        h6{
+            font-family: $font-2;
+            font-size: 28px;
+            font-weight: $font-bold;
+            letter-spacing: 0.5px;
+        }
+    }
+    .contact-form{
+        height: 450px;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 60px 0;
+        background-image: none;
+        .title{
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 767px) {
+        .title{
+            h2{
+                font-size: 30px;
+            }
+            h6{
+                font-size: 22px;
+            }
+        }
+    }
+}
+/*Banner*/
+/*Treatment*/
+.treatment{
+    background-color: $light-bg;
+    padding: 60px 0;
+
+    .title{
+       @include title;
+    }
+
+    .card{
+        @include card;
+        height: 160px;
+
+        .card-body{
+            a{
+                text-decoration: none;
+                color: $secondary-color;
+                font-weight: $font-medium;
+                .fa{
+                    transition: all .3s ease-out;
+                }
+            }
+        }
+        &:hover{
+            .fa{
+                transform: translateX(5px);
+            }
+        }
+    }
+
+}
+/*Treatment*/
+/* Process */
+.process{
+    padding: 60px 0;
+    .title{
+        @include title;
+        text-align: center;
+    }
+    .card{
+        padding: 20px;
+        border: 0;
+        height: 350px;
+        position: relative;
+        font-family: $font-2;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        overflow: visible !important;
+        .image-wrapper{
+            height: 200px;
+            overflow: hidden;
+        }
+        .num{
+            position: absolute;
+            bottom: -20px;
+            left: 40%;
+            height: 60px;
+            width: 60px;
+            background: $light-secondary;
+            border-radius: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            span{
+                font-size: 30px;
+                font-weight: $font-medium;
+                color: $white;
+                font-family: $font;
+                color: $secondary-color;
+            }
+        }
+    }
+}
+/*Process*/

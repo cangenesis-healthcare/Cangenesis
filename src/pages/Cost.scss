@@ -1,0 +1,27 @@
+@import '../styles/variable';
+@import '../styles/style.scss';
+
+.cost-section{
+    padding: 60px 0 40px;
+
+    .card{
+        .image-wrapper{
+            background-color: rgba(80, 40, 166, 0.25);
+            padding: 15px;
+            height: 80px;
+            width: 80px;
+            border-radius: 100%;
+        }
+        .content{
+            margin-top: 20px;
+            h6{
+                color: $primary-color;
+            }
+            .know-btn{
+                @include primary-btn;
+                background: $btn-gradient !important;
+                text-align: left;
+            }
+        }
+    }
+}

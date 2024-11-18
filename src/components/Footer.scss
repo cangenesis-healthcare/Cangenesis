@@ -1,0 +1,68 @@
+@import '../styles/style.scss';
+@import '../styles/variable';
+
+footer{
+    background-color: $primary-color;
+    padding: 220px 0 20px;
+    position: relative;
+    color: $white;
+    font-family: $font-2;
+    margin-top: 60px;
+
+    .footer-image-wrapper{
+        position: absolute;
+        top: -8%;
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    .footer-title-wrapper{
+        margin-bottom: 60px;
+        h4{
+            font-size: 50px;
+            font-weight: $font-medium;
+            font-family: $font-2;
+        }
+        .quote-wrapper{
+            a{
+                @include white-btn;
+            }
+        }
+    }
+    .logo{
+        width: 250px;
+    }
+
+    .footer-wrapper{
+        li{
+            margin: 10px 0;
+            a{
+                text-decoration: none;
+                color: $white;
+                font-size: 18px;
+            }
+        }
+    }
+    .copyright-wrapper{
+        border-top: 1px solid #ffffff4d;
+        .social-list{
+            li{
+                a{
+                    i{
+                        color: $white;
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 110px 0 20px;
+        .footer-image-wrapper{
+            top: -3%;
+        }
+        
+    }
+}

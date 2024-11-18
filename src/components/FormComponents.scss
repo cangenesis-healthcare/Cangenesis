@@ -1,0 +1,45 @@
+@import '../styles/variable';
+@import '../styles/style.scss';
+
+.form-group{
+    .form-control{
+        width: 100%;
+        border: none;
+        background: #fff;
+        padding: 10px 20px;
+        transition: .3s;
+        border: 1px solid #C3C3C3;
+        border-radius: 15px;
+        font-family: $font-2;
+    }
+
+    .down-arrow{
+        position: relative;
+        top: -35px;
+        right: -90%;
+    }
+}
+
+.wa-btn{
+    @include primary-btn;
+    margin-left: 98px !important;
+    margin-right: 100px !important;
+    text-align: left !important;
+}
+
+.submit-btn{
+    @include submit-btn;
+}
+
+
+.gender-wrapper{
+    label{
+        font-size: 18px;
+        color: $secondary-color;
+        margin-top: 10px;
+    }
+    .image-wrapper{
+        height: 120px;
+        width: 120px;
+    }
+}

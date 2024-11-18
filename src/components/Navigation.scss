@@ -1,0 +1,53 @@
+@import '../styles/variable';
+@import '../styles/style.scss';
+
+.strip-1{
+    background: $default-gradient;
+    color: $white;
+    .contact-list{
+        li{
+            a{
+                text-decoration: none;
+                color: $white;
+                font-family: $font-2;
+            }
+        }
+    }
+}
+.navbar{
+    background-color: $white !important;
+    font-family: $font-2;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    .navbar-nav{
+        .nav-link{
+            color: $primary-color;
+            font-size: 17px;
+            &:hover, &.active{
+                color: $secondary-color;
+            }
+        }
+    }
+    .default-btn{
+        @include primary-btn;
+    }
+    &.fixed{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        border-radius: 0;
+        z-index: 99;
+        animation: smoothScroll 1s forwards;
+    }
+    @keyframes smoothScroll {
+        0% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
