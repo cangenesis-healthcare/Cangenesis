@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const path = require("path");
 const app = express();
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "client/build")));
 
@@ -31,7 +31,8 @@ const doctors = [
   { name: "Dr. Khader Hussain", specialization: ["Consultant - Thoracic Surgical Oncology", "Thoracic Surgical Oncology", "Oncology"], speciality:["Consultant - Thoracic Surgical Oncology"] },
   { name: "Dr. Jose M Easow", specialization: ["Senior Consultant - Medical Oncology & Hematology", "Medical Oncology", "Hematology"], speciality:["Senior Consultant - Medical Oncology & Hematology"],}
 ];
-
+app.use("/api/doctors", express.static(path.join(__dirname, "doctors.json")));
+app.use(express.static(path.join(__dirname, "../build")));
 app.get("/api/doctors", (req, res) => {
   const { specialization } = req.query;
   console.log('Received specialization:', specialization); // Debugging
@@ -50,6 +51,9 @@ app.get("/api/doctors", (req, res) => {
   res.json(filteredDoctors);
 });
 
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../build/index.html"));
+});
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
