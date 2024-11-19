@@ -52,8 +52,8 @@ function Navigation(){
                         <Nav.Link as={Link} to="/" className='mx-2'>Home</Nav.Link>
                         <Nav.Link as={Link} to="/doctors" className='mx-2'>Doctors</Nav.Link>
                         <NavDropdown title="Hospitals" id="nav-dropdown d-lg-flex" className='mx-2'>
-                            <NavDropdown.Item href='/apollo'>Apollo Hospitals</NavDropdown.Item>
-                            <NavDropdown.Item href='/fortis'>Fortis Hospital</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to='/apollo'>Apollo Hospitals</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to='/fortis'>Fortis Hospital</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link as={Link} to="/cost"  className='mx-2'>Cost</Nav.Link>
                         <Nav.Link as={Link} to="/cart"  className='mx-2'>CAR-T</Nav.Link>
