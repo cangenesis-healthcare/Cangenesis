@@ -16,22 +16,18 @@ app.use(express.json());
 
 app.use('/images', express.static(path.join(__dirname, 'images'))); 
 
-
-const getDoctorsData = () => {
-  const data = fs.readFileSync(path.join(__dirname, 'doctors.json'), 'utf8');
-  return JSON.parse(data);
-};
-
+app.use("/api/doctors", express.static(path.join(__dirname, "doctors.json")));
+app.use(express.static(path.join(__dirname, "../build")));
 app.get("/api/doctors", (req, res) => {
   const { specialization } = req.query;
   console.log('Received specialization:', specialization); // Debugging
- let doctors = getDoctorsData(); 
+
   if (!specialization) {
     return res.json(doctors);
   }
 
   const filteredDoctors = doctors.filter((doctor) => {
-    const doctorSpecializations = doctor.specialization || []; 
+    const doctorSpecializations = doctor.specialization || []; // Default to empty array if undefined
     return doctorSpecializations.some((spec) =>
       spec.toLowerCase().includes(specialization.toLowerCase())
     );
