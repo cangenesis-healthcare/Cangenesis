@@ -32,7 +32,7 @@ const SearchDoctor = () => {
 
   const fetchDoctors = async (specialization) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/doctors?specialization=${specialization}`);
+      const response = await fetch(`http://localhost:4000/api/doctors?specialization=${specialization}`);
       const data = await response.json();
       setDoctors(data);
     } catch (error) {
@@ -57,8 +57,8 @@ const SearchDoctor = () => {
 
   const getDoctorImageUrl = async (doctorName) => {
     const formattedName = doctorName.replace(/ /g, "_");
-    const webpPath = `http://localhost:5000/images/${formattedName}.webp`;
-    const jpgPath = `http://localhost:5000/images/${formattedName}.jpg`;
+    const webpPath = `http://localhost:4000/images/${formattedName}.webp`;
+    const jpgPath = `http://localhost:4000/images/${formattedName}.jpg`;
 
     try {
       const webpResponse = await fetch(webpPath, { method: "HEAD" });
