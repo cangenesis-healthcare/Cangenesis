@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import './SearchDoctor.scss';
-import { Button, Card, CardBody, Col, Container, Row } from "react-bootstrap";
+import { Card, CardBody, Col, Row } from "react-bootstrap";
 import ContactWhatsapp from "./ContactWhatsapp"; 
 import AppointmentButton from "./AppointmentButton";
 
