@@ -1,7 +1,7 @@
 import './Hospitals.scss';
 import Navigation from "../components/Navigation";
 import Footer from "../components/Footer";
-import { Button, Card, CardBody, Col, Container, Row } from "react-bootstrap";
+import { Card, CardBody, Col, Container, Row } from "react-bootstrap";
 import images from '../components/Images';
 import ContactWhatsapp from "../components/ContactWhatsapp";
 import AppointmentButton from "../components/AppointmentButton";

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.91c59143.css",
-    "main.js": "./static/js/main.1af7f11a.js",
+    "main.js": "./static/js/main.8cc02a2a.js",
     "static/js/453.903183ef.chunk.js": "./static/js/453.903183ef.chunk.js",
     "static/media/reports.png": "./static/media/reports.edcf7194add37fe4f696.png",
     "static/media/contact_2.jpg": "./static/media/contact_2.9c75ef02aff34e55577e.jpg",
@@ -63,11 +63,11 @@
     "static/media/fortis_doc_3.webp": "./static/media/fortis_doc_3.34d76aeb7e1d8852652b.webp",
     "index.html": "./index.html",
     "main.91c59143.css.map": "./static/css/main.91c59143.css.map",
-    "main.1af7f11a.js.map": "./static/js/main.1af7f11a.js.map",
+    "main.8cc02a2a.js.map": "./static/js/main.8cc02a2a.js.map",
     "453.903183ef.chunk.js.map": "./static/js/453.903183ef.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91c59143.css",
-    "static/js/main.1af7f11a.js"
+    "static/js/main.8cc02a2a.js"
   ]
 }
