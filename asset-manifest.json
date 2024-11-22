@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Cangenesis/static/css/main.492b51d7.css",
-    "main.js": "/Cangenesis/static/js/main.4a63fca6.js",
+    "main.css": "/Cangenesis/static/css/main.f8decf1f.css",
+    "main.js": "/Cangenesis/static/js/main.e4ca21dd.js",
     "static/js/453.903183ef.chunk.js": "/Cangenesis/static/js/453.903183ef.chunk.js",
     "static/media/reports.png": "/Cangenesis/static/media/reports.edcf7194add37fe4f696.png",
     "static/media/contact_2.jpg": "/Cangenesis/static/media/contact_2.9c75ef02aff34e55577e.jpg",
@@ -62,12 +62,12 @@
     "static/media/fortis_doc_2.webp": "/Cangenesis/static/media/fortis_doc_2.116ad57d5fb0fa28b1cf.webp",
     "static/media/fortis_doc_3.webp": "/Cangenesis/static/media/fortis_doc_3.34d76aeb7e1d8852652b.webp",
     "index.html": "/Cangenesis/index.html",
-    "main.492b51d7.css.map": "/Cangenesis/static/css/main.492b51d7.css.map",
-    "main.4a63fca6.js.map": "/Cangenesis/static/js/main.4a63fca6.js.map",
+    "main.f8decf1f.css.map": "/Cangenesis/static/css/main.f8decf1f.css.map",
+    "main.e4ca21dd.js.map": "/Cangenesis/static/js/main.e4ca21dd.js.map",
     "453.903183ef.chunk.js.map": "/Cangenesis/static/js/453.903183ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.492b51d7.css",
-    "static/js/main.4a63fca6.js"
+    "static/css/main.f8decf1f.css",
+    "static/js/main.e4ca21dd.js"
   ]
 }
