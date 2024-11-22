@@ -1,17 +1,16 @@
 [
-  { "name": "Dr. Vinod Raina", "specialization": ["Oncology | Cancer | Medical Oncology"], "speciality": ["Medical Oncology"], "image":"Dr._Vinod_Raina.webp"},
-  { "name": "Dr. Ashok Omar", "specialization": ["Cardiac", "Non-Invasive Cardiologist"], "speciality": ["Non-Invasive Cardiologist"],"image":"Dr._Ashok_Omar.webp" },
-  { "name": "Dr. Ari G. Chacko", "specialization": ["Neurology"], "speciality": ["Neurosurgeon"],"image":"Dr._Ari_G._Chacko.jpg" },
-  { "name": "Dr. Subhaprakash Sanyal", "specialization": ["Pediatric Oncology", "Hematology | Bone Marrow Transplant | BMT | CAR-T", "Oncology"], "speciality": ["Adult & Pediatric Haemato Oncologist and BMT | CAR-T "], "image":"Dr._Subhaprakash_Sanyal.webp"},
-  { "name": "Dr. Arun Behl", "specialization": ["Surgical Oncology", "Oncology"], "speciality": ["Surgical Oncology"], "image":"Dr._Arun_Behl.webp"},
-  { "name": "Dr. Boman Nariman Dhabhar", "specialization": ["Medical Oncology", "Oncology"], "speciality": ["Medical Oncology"],"image":"Dr._Boman_Nariman_Dhabhar.webp" },
-  { "name": "Dr. Sandeep Nayak", "specialization": ["Surgical Oncology", "Robotic Surgery", "Oncology"], "speciality": ["Surgical Oncology | Robotic Surgery"], "image":"Dr._Sandeep_Nayak.webp"},
-  { "name": "Dr. Krishna Subramony Iyer", "specialization": ["Paediatric CTVS", "Cardio vascular and thoracic surgery", "CTVS"], "speciality": ["Paediatric CTVS"], "image":"Dr._Krishna_Subramony_Iyer.webp"},
-  { "name": "Dr. Z S Meharwal", "specialization": ["Paediatric CTVS", "Cardio vascular and thoracic surgery", "CTVS"], "speciality": ["Adult CTVS"],"image":"Dr._Z_S_Meharwal.webp"},
-  { "name": "Dr. Vedant Kabra", "specialization": ["Surgical Oncology", "Oncology"], "speciality":["Surgical Oncology"],"image":"Dr._Vedant_Kabra.webp" },
-  { "name": "Dr. Anil Saxena", "specialization": ["Electrophysiologist", "EP"], "speciality": ["Electrophysiologist"],"image":"Dr._Anil_Saxena.webp" },
-  { "name": "Dr. Kumar Gubbala", "specialization": ["Consultant - Gynaecological Oncology", "Gynaecological Oncology", "Oncology"], "speciality": ["Consultant - Gynaecological Oncology"],"image":"Dr._Kumar_Gubbala.webp" },
-  { "name": "Dr. Khader Hussain", "specialization": ["Consultant - Thoracic Surgical Oncology", "Thoracic Surgical Oncology", "Oncology"], "speciality":["Consultant - Thoracic Surgical Oncology"],"image":"Dr._Khader_Hussain.webp" },
-  { "name": "Dr. Jose M Easow", "specialization": ["Senior Consultant - Medical Oncology & Hematology", "Medical Oncology", "Hematology"], "speciality":["Senior Consultant - Medical Oncology & Hematology"],"image":"Dr._Jose_M_Easow.webp"}
-  ]
-  
+  { "name": "Dr. Vinod Raina", "specialization": ["Oncology", "Cancer", "Medical Oncology"], "speciality": ["Medical Oncology"], "image": "Dr._Vinod_Raina.webp" },
+  { "name": "Dr. Ashok Omar", "specialization": ["Cardiac", "Non-Invasive Cardiologist"], "speciality": ["Non-Invasive Cardiologist"], "image": "Dr._Ashok_Omar.webp" },
+  { "name": "Dr. Ari G. Chacko", "specialization": ["Neurology"], "speciality": ["Neurosurgeon"], "image": "Dr._Ari_G._Chacko.jpg" },
+  { "name": "Dr. Subhaprakash Sanyal", "specialization": ["Pediatric Oncology", "Hematology", "Bone Marrow Transplant", "BMT", "CAR-T", "Oncology"], "speciality": ["Adult & Pediatric Haemato Oncologist and BMT", "CAR-T"], "image": "Dr._Subhaprakash_Sanyal.webp" },
+  { "name": "Dr. Arun Behl", "specialization": ["Surgical Oncology", "Oncology"], "speciality": ["Surgical Oncology"], "image": "Dr._Arun_Behl.webp" },
+  { "name": "Dr. Boman Nariman Dhabhar", "specialization": ["Medical Oncology", "Oncology"], "speciality": ["Medical Oncology"], "image": "Dr._Boman_Nariman_Dhabhar.webp" },
+  { "name": "Dr. Sandeep Nayak", "specialization": ["Surgical Oncology", "Robotic Surgery", "Oncology"], "speciality": ["Surgical Oncology", "Robotic Surgery"], "image": "Dr._Sandeep_Nayak.webp" },
+  { "name": "Dr. Krishna Subramony Iyer", "specialization": ["Paediatric CTVS", "Cardio vascular and thoracic surgery", "CTVS"], "speciality": ["Paediatric CTVS"], "image": "Dr._Krishna_Subramony_Iyer.webp" },
+  { "name": "Dr. Z S Meharwal", "specialization": ["Paediatric CTVS", "Cardio vascular and thoracic surgery", "CTVS"], "speciality": ["Adult CTVS"], "image": "Dr._Z_S_Meharwal.webp" },
+  { "name": "Dr. Vedant Kabra", "specialization": ["Surgical Oncology", "Oncology"], "speciality": ["Surgical Oncology"], "image": "Dr._Vedant_Kabra.webp" },
+  { "name": "Dr. Anil Saxena", "specialization": ["Electrophysiologist", "EP"], "speciality": ["Electrophysiologist"], "image": "Dr._Anil_Saxena.webp" },
+  { "name": "Dr. Kumar Gubbala", "specialization": ["Consultant - Gynaecological Oncology", "Gynaecological Oncology", "Oncology"], "speciality": ["Consultant - Gynaecological Oncology"], "image": "Dr._Kumar_Gubbala.webp" },
+  { "name": "Dr. Khader Hussain", "specialization": ["Consultant - Thoracic Surgical Oncology", "Thoracic Surgical Oncology", "Oncology"], "speciality": ["Consultant - Thoracic Surgical Oncology"], "image": "Dr._Khader_Hussain.webp" },
+  { "name": "Dr. Jose M Easow", "specialization": ["Senior Consultant - Medical Oncology & Hematology", "Medical Oncology", "Hematology"], "speciality": ["Senior Consultant - Medical Oncology & Hematology"], "image": "Dr._Jose_M_Easow.webp" }
+]
